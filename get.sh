@@ -185,7 +185,7 @@ Check_Arch() {
     esac
     Show 0 "Your hardware architecture is : $UNAME_M"
     CASA_PACKAGES=(
-        "https://foruda.gitee.com/attach_file/1662816616271969501/linux-arm-7-casaos-v0.3.6.tar.gz?token=9abd66ce42e353b6265646f304bd5f4f&ts=1662825110&attname=linux-arm-7-casaos-v0.3.6.tar.gz"
+        "https://gitee.com/shawisky/CasaOS/releases/download/3.6/linux-arm-7-casaos-v0.3.6.tar.gz"
         "https://github.com/IceWhaleTech/CasaOS-UserService/releases/download/v0.3.6/linux-${TARGET_ARCH}-casaos-user-service-v0.3.6.tar.gz"
         "https://github.com/IceWhaleTech/CasaOS/releases/download/v0.3.6/linux-${TARGET_ARCH}-casaos-v0.3.6.tar.gz"
         "https://github.com/IceWhaleTech/CasaOS-UI/releases/download/v0.3.6/linux-all-casaos-v0.3.6.tar.gz"
