@@ -60,7 +60,7 @@ readonly UNAME_U="$(uname -s)"
 readonly NET_GETTER="curl -fsSLk"
 
 readonly CASA_CONF_PATH=/etc/casaos/gateway.ini
-readonly CASA_UNINSTALL_URL="https://raw.githubusercontent.com/IceWhaleTech/get/main/uninstall.sh"
+readonly CASA_UNINSTALL_URL="https://raw.staticdn.net/IceWhaleTech/get/main/casaos-uninstall.sh"
 readonly CASA_UNINSTALL_PATH=/usr/bin/casaos-uninstall
 readonly CASA_VERSION_URL="https://api.casaos.io/casaos-api/version"
 
@@ -185,7 +185,7 @@ Check_Arch() {
     esac
     Show 0 "Your hardware architecture is : $UNAME_M"
     CASA_PACKAGES=(
-        "https://github.com/IceWhaleTech/CasaOS-Gateway/releases/download/v0.3.6/linux-${TARGET_ARCH}-casaos-gateway-v0.3.6.tar.gz"
+        "https://foruda.gitee.com/attach_file/1662816616271969501/linux-arm-7-casaos-v0.3.6.tar.gz"
         "https://github.com/IceWhaleTech/CasaOS-UserService/releases/download/v0.3.6/linux-${TARGET_ARCH}-casaos-user-service-v0.3.6.tar.gz"
         "https://github.com/IceWhaleTech/CasaOS/releases/download/v0.3.6/linux-${TARGET_ARCH}-casaos-v0.3.6.tar.gz"
         "https://github.com/IceWhaleTech/CasaOS-UI/releases/download/v0.3.6/linux-all-casaos-v0.3.6.tar.gz"
